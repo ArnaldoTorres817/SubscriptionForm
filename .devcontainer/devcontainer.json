@@ -1,0 +1,21 @@
+{
+  "name": "SubscriptionForm",
+  "workspaceFolder": "/workspace/${localWorkspaceFolderBasename}",
+  "remoteUser": "dotnet",
+  "dockerComposeFile": "docker-compose.yml",
+  "forwardPorts": [
+    "db:1433"
+  ],
+  "service": "devcontainer",
+  "onCreateCommand": "zsh ./.devcontainer/install-dev-tools.sh",
+  "extensions": [
+    "bradlc.vscode-tailwindcss",
+    "patbenatar.advanced-new-file",
+    "mhutchie.git-graph",
+    "ritwickdey.LiveServer",
+    "esbenp.prettier-vscode",
+    "ms-dotnettools.csharp",
+    "vivaxy.vscode-conventional-commits",
+    "rangav.vscode-thunder-client"
+  ]
+}
